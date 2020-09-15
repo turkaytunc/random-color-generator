@@ -4,7 +4,7 @@ import { RandomColor } from './components/RandomColor';
 
 function App() {
   return (
-    <div className="App">
+    <div style={{ width: '50%', justifyContent: 'center' }}>
       <RandomColor></RandomColor>
     </div>
   );

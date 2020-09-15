@@ -9,7 +9,8 @@ export const RandomColor = () => {
   const color = `rgb(${redColorValue},${greenColorValue},${blueColorValue})`;
   return (
     <div className="card-wrapper">
-      <div style={{ background: color, height: '10vh' }}></div>
+      <div style={{ background: color, height: '20em' }}></div>
+      <button className="change-color-button">Change Color</button>
     </div>
   );
 };
