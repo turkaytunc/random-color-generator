@@ -1,9 +1,9 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { generateNumber } from '../util/generate-number';
 import './random-color.scss';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 
-export const RandomColor = () => {
+export const RandomColorCard = () => {
   const [colorValue, setColorValue] = useState({
     red: 200,
     green: 200,
@@ -26,7 +26,14 @@ export const RandomColor = () => {
   const color = `rgb(${colorValue.red}, ${colorValue.green}, ${colorValue.blue})`;
   return (
     <div className="card-wrapper">
-      <div style={{ background: color, height: '20em' }}></div>
+      <div
+        style={{
+          background: color,
+          height: '20em',
+          borderTopLeftRadius: '5px',
+          borderTopRightRadius: '5px',
+        }}
+      ></div>
       <div className="copy-color">
         <p className="color-code">{color}</p>
 

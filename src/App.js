@@ -1,11 +1,13 @@
 import React from 'react';
-import './App.css';
-import { RandomColor } from './components/RandomColor';
+import './App.scss';
+import { RandomColorCard } from './components/RandomColorCard';
 
 function App() {
   return (
-    <div style={{ width: '50%', justifyContent: 'center' }}>
-      <RandomColor></RandomColor>
+    <div className="app">
+      <div className="app-card-wrapper">
+        <RandomColorCard></RandomColorCard>
+      </div>
     </div>
   );
 }

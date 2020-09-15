@@ -1,0 +1,18 @@
+.app {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  justify-content: center;
+  padding-top: 10em;
+}
+
+.app-card-wrapper {
+  grid-column: 2;
+}
+
+@media only screen and (max-width: 768px) {
+  .app {
+    grid-template-columns: 1fr 4fr 1fr;
+    justify-content: center;
+    padding-top: 10em;
+  }
+}
