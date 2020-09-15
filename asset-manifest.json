@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/random-color-generator/static/css/main.9d477211.chunk.css",
+    "main.js": "/random-color-generator/static/js/main.45eee939.chunk.js",
+    "main.js.map": "/random-color-generator/static/js/main.45eee939.chunk.js.map",
+    "runtime-main.js": "/random-color-generator/static/js/runtime-main.7306c3ed.js",
+    "runtime-main.js.map": "/random-color-generator/static/js/runtime-main.7306c3ed.js.map",
+    "static/js/2.46f88f2a.chunk.js": "/random-color-generator/static/js/2.46f88f2a.chunk.js",
+    "static/js/2.46f88f2a.chunk.js.map": "/random-color-generator/static/js/2.46f88f2a.chunk.js.map",
+    "index.html": "/random-color-generator/index.html",
+    "precache-manifest.38faafcb0755e44958741f409bf28f4c.js": "/random-color-generator/precache-manifest.38faafcb0755e44958741f409bf28f4c.js",
+    "service-worker.js": "/random-color-generator/service-worker.js",
+    "static/css/main.9d477211.chunk.css.map": "/random-color-generator/static/css/main.9d477211.chunk.css.map",
+    "static/js/2.46f88f2a.chunk.js.LICENSE.txt": "/random-color-generator/static/js/2.46f88f2a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7306c3ed.js",
+    "static/js/2.46f88f2a.chunk.js",
+    "static/css/main.9d477211.chunk.css",
+    "static/js/main.45eee939.chunk.js"
+  ]
+}
