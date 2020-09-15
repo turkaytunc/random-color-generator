@@ -1,3 +1,6 @@
 # Random Color Generator
 
-:rocket: [Visit Web Site](https://turkaytunc.github.io/random-color-generator)
+:rocket: [Go to application](https://turkaytunc.github.io/random-color-generator)  
+:page_facing_up: [License](#MIT-License)
+
+[MIT License](https://github.com/turkaytunc/random-color-generator/blob/master/LICENSE)
