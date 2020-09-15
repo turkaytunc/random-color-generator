@@ -1,16 +1,35 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { generateNumber } from '../util/generate-number';
 import './random-color.scss';
 
 export const RandomColor = () => {
-  const redColorValue = generateNumber();
-  const greenColorValue = generateNumber();
-  const blueColorValue = generateNumber();
-  const color = `rgb(${redColorValue},${greenColorValue},${blueColorValue})`;
+  const [colorValue, setColorValue] = useState({ red: 0, green: 0, blue: 0 });
+
+  const generateColorValue = () => {
+    const redColorValue = generateNumber();
+    const greenColorValue = generateNumber();
+    const blueColorValue = generateNumber();
+
+    setColorValue({
+      ...colorValue,
+      red: redColorValue,
+      green: greenColorValue,
+      blue: blueColorValue,
+    });
+  };
+
+  const color = `rgb(${colorValue.red},${colorValue.green},${colorValue.blue})`;
   return (
     <div className="card-wrapper">
       <div style={{ background: color, height: '20em' }}></div>
-      <button className="change-color-button">Change Color</button>
+      <button
+        onClick={() => {
+          generateColorValue();
+        }}
+        className="change-color-button"
+      >
+        Change Color
+      </button>
     </div>
   );
 };
