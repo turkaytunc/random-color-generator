@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/random-color-generator/static/css/main.c934c434.chunk.css",
-    "main.js": "/random-color-generator/static/js/main.8c9fc6f4.chunk.js",
-    "main.js.map": "/random-color-generator/static/js/main.8c9fc6f4.chunk.js.map",
+    "main.css": "/random-color-generator/static/css/main.51d3da03.chunk.css",
+    "main.js": "/random-color-generator/static/js/main.77c3a5ca.chunk.js",
+    "main.js.map": "/random-color-generator/static/js/main.77c3a5ca.chunk.js.map",
     "runtime-main.js": "/random-color-generator/static/js/runtime-main.7306c3ed.js",
     "runtime-main.js.map": "/random-color-generator/static/js/runtime-main.7306c3ed.js.map",
     "static/js/2.6f6e69c2.chunk.js": "/random-color-generator/static/js/2.6f6e69c2.chunk.js",
     "static/js/2.6f6e69c2.chunk.js.map": "/random-color-generator/static/js/2.6f6e69c2.chunk.js.map",
     "index.html": "/random-color-generator/index.html",
-    "precache-manifest.50175f9f29075d61f1fe3f71a4d51ac5.js": "/random-color-generator/precache-manifest.50175f9f29075d61f1fe3f71a4d51ac5.js",
+    "precache-manifest.d632fb17883e71c9d4789ea469d0dcdc.js": "/random-color-generator/precache-manifest.d632fb17883e71c9d4789ea469d0dcdc.js",
     "service-worker.js": "/random-color-generator/service-worker.js",
-    "static/css/main.c934c434.chunk.css.map": "/random-color-generator/static/css/main.c934c434.chunk.css.map",
+    "static/css/main.51d3da03.chunk.css.map": "/random-color-generator/static/css/main.51d3da03.chunk.css.map",
     "static/js/2.6f6e69c2.chunk.js.LICENSE.txt": "/random-color-generator/static/js/2.6f6e69c2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7306c3ed.js",
     "static/js/2.6f6e69c2.chunk.js",
-    "static/css/main.c934c434.chunk.css",
-    "static/js/main.8c9fc6f4.chunk.js"
+    "static/css/main.51d3da03.chunk.css",
+    "static/js/main.77c3a5ca.chunk.js"
   ]
 }
