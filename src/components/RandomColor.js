@@ -9,7 +9,6 @@ export const RandomColor = () => {
     green: 200,
     blue: 200,
   });
-  const clipboardRef = useRef(null);
 
   const generateColorValue = () => {
     const redColorValue = generateNumber();
@@ -24,24 +23,20 @@ export const RandomColor = () => {
     });
   };
 
-  const copyToClipboard = (e) => {
-    clipboardRef.current.select();
-    document.execCommand('copy');
-  };
-
   const color = `rgb(${colorValue.red}, ${colorValue.green}, ${colorValue.blue})`;
   return (
     <div className="card-wrapper">
       <div style={{ background: color, height: '20em' }}></div>
-      <div>
-        <p ref={clipboardRef} className="color-code">
-          {color}
-        </p>
-        <button>
-          <CopyToClipboard text={color}>
-            <span>Copy to clipboard</span>
-          </CopyToClipboard>
-        </button>
+      <div className="copy-color">
+        <p className="color-code">{color}</p>
+
+        <CopyToClipboard className="clipboard-comp" text={color}>
+          <img
+            height="32px"
+            src={`${process.env.PUBLIC_URL}/static-files/clipboard-icon.png`}
+            alt="clipboard"
+          />
+        </CopyToClipboard>
       </div>
       <button
         onClick={() => {
