@@ -3,7 +3,11 @@ import { generateNumber } from '../util/generate-number';
 import './random-color.scss';
 
 export const RandomColor = () => {
-  const [colorValue, setColorValue] = useState({ red: 0, green: 0, blue: 0 });
+  const [colorValue, setColorValue] = useState({
+    red: 200,
+    green: 200,
+    blue: 200,
+  });
 
   const generateColorValue = () => {
     const redColorValue = generateNumber();
@@ -18,11 +22,13 @@ export const RandomColor = () => {
     });
   };
 
-  const color = `rgb(${colorValue.red},${colorValue.green},${colorValue.blue})`;
+  const color = `rgb(${colorValue.red}, ${colorValue.green}, ${colorValue.blue})`;
   return (
     <div className="card-wrapper">
       <div style={{ background: color, height: '20em' }}></div>
-      <p>Color-code: {color}</p>
+      <div>
+        <p className="color-code">{color}</p>
+      </div>
       <button
         onClick={() => {
           generateColorValue();
