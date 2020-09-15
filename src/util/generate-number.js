@@ -1,3 +1,3 @@
 export const generateNumber = () => {
-  return Math.random() * 255;
+  return ~~(Math.random() * 255);
 };

@@ -22,6 +22,7 @@ export const RandomColor = () => {
   return (
     <div className="card-wrapper">
       <div style={{ background: color, height: '20em' }}></div>
+      <p>Color-code: {color}</p>
       <button
         onClick={() => {
           generateColorValue();
