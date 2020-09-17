@@ -7,4 +7,5 @@
 ![gif](https://github.com/turkaytunc/random-color-generator/blob/master/public/static-files/howtouse.gif)
 
 ## License
+
 [MIT License](https://github.com/turkaytunc/random-color-generator/blob/master/LICENSE)

@@ -10,10 +10,19 @@ export const RandomColorCard = () => {
     blue: 200,
   });
 
+  const [copyStatus, setCopyStatus] = useState();
+
+  const copyDone = () => {
+    setCopyStatus('Copied to clipboard');
+    setTimeout(() => {
+      setCopyStatus(null);
+    }, 1000);
+    console.log(copyStatus);
+  };
   const generateColorValue = () => {
-    const redColorValue = generateNumber();
-    const greenColorValue = generateNumber();
-    const blueColorValue = generateNumber();
+    const redColorValue = generateNumber(0, 255);
+    const greenColorValue = generateNumber(0, 255);
+    const blueColorValue = generateNumber(0, 255);
 
     setColorValue({
       ...colorValue,
@@ -35,9 +44,15 @@ export const RandomColorCard = () => {
         }}
       ></div>
       <div className="copy-color">
-        <p className="color-code">{color}</p>
+        <p className="color-code">
+          {color} {copyStatus !== null ? copyStatus : ''}
+        </p>
 
-        <CopyToClipboard className="clipboard-comp" text={color}>
+        <CopyToClipboard
+          className="clipboard-comp"
+          text={color}
+          onCopy={() => copyDone()}
+        >
           <img
             height="32px"
             src={`${process.env.PUBLIC_URL}/static-files/clipboard-icon.png`}
