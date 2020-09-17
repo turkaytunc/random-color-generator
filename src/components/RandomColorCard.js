@@ -37,7 +37,7 @@ export const RandomColorCard = () => {
       <div
         style={{
           background: color,
-          height: '25em',
+          height: '30em',
           borderTopLeftRadius: '5px',
           borderTopRightRadius: '5px',
         }}
