@@ -4,7 +4,7 @@
 <br>
 :page_facing_up: [License](#License)
 
-![gif](https://github.com/turkaytunc/random-color-generator/blob/master/public/static-files/howtouse.gif)
+![gif](https://github.com/turkaytunc/random-color-generator/blob/master/public/static-files/how-to-use.gif)
 
 ## License
 
