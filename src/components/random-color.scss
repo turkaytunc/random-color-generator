@@ -6,12 +6,21 @@
 }
 
 .color-code {
-  display: flex;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
   background: #333;
   color: rgb(212, 81, 33);
-  height: 2em;
+  height: 3em;
   align-items: center;
   justify-content: center;
+}
+
+.color-rgb {
+  text-align: right;
+}
+.color-status {
+  color: orangered;
+  font-size: 0.7em;
   text-align: center;
 }
 
@@ -21,8 +30,10 @@
 }
 
 .clipboard-comp {
+  height: 3em;
   margin: 0;
   background: #333;
+
   &:hover {
     background: #666;
   }

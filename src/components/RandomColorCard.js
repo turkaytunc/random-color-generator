@@ -17,7 +17,6 @@ export const RandomColorCard = () => {
     setTimeout(() => {
       setCopyStatus(null);
     }, 1000);
-    console.log(copyStatus);
   };
   const generateColorValue = () => {
     const redColorValue = generateNumber(0, 255);
@@ -44,10 +43,12 @@ export const RandomColorCard = () => {
         }}
       ></div>
       <div className="copy-color">
-        <p className="color-code">
-          {color} {copyStatus !== null ? copyStatus : ''}
-        </p>
-
+        <div className="color-code">
+          <div className="color-rgb">{color}</div>
+          <div className="color-status">
+            {copyStatus !== null ? copyStatus : ''}
+          </div>
+        </div>
         <CopyToClipboard
           className="clipboard-comp"
           text={color}
