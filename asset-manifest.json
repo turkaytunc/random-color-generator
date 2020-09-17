@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/random-color-generator/static/css/main.fcb70c5d.chunk.css",
-    "main.js": "/random-color-generator/static/js/main.f129a3c5.chunk.js",
-    "main.js.map": "/random-color-generator/static/js/main.f129a3c5.chunk.js.map",
+    "main.css": "/random-color-generator/static/css/main.b14183ac.chunk.css",
+    "main.js": "/random-color-generator/static/js/main.ed3fd30c.chunk.js",
+    "main.js.map": "/random-color-generator/static/js/main.ed3fd30c.chunk.js.map",
     "runtime-main.js": "/random-color-generator/static/js/runtime-main.7306c3ed.js",
     "runtime-main.js.map": "/random-color-generator/static/js/runtime-main.7306c3ed.js.map",
-    "static/js/2.6f6e69c2.chunk.js": "/random-color-generator/static/js/2.6f6e69c2.chunk.js",
-    "static/js/2.6f6e69c2.chunk.js.map": "/random-color-generator/static/js/2.6f6e69c2.chunk.js.map",
+    "static/js/2.d585a353.chunk.js": "/random-color-generator/static/js/2.d585a353.chunk.js",
+    "static/js/2.d585a353.chunk.js.map": "/random-color-generator/static/js/2.d585a353.chunk.js.map",
     "index.html": "/random-color-generator/index.html",
-    "precache-manifest.6ca01f348a5c8214e4d00e70d4659e11.js": "/random-color-generator/precache-manifest.6ca01f348a5c8214e4d00e70d4659e11.js",
+    "precache-manifest.07b6f6bd9cd2a5337c0f21b436ca39a8.js": "/random-color-generator/precache-manifest.07b6f6bd9cd2a5337c0f21b436ca39a8.js",
     "service-worker.js": "/random-color-generator/service-worker.js",
-    "static/css/main.fcb70c5d.chunk.css.map": "/random-color-generator/static/css/main.fcb70c5d.chunk.css.map",
-    "static/js/2.6f6e69c2.chunk.js.LICENSE.txt": "/random-color-generator/static/js/2.6f6e69c2.chunk.js.LICENSE.txt"
+    "static/css/main.b14183ac.chunk.css.map": "/random-color-generator/static/css/main.b14183ac.chunk.css.map",
+    "static/js/2.d585a353.chunk.js.LICENSE.txt": "/random-color-generator/static/js/2.d585a353.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7306c3ed.js",
-    "static/js/2.6f6e69c2.chunk.js",
-    "static/css/main.fcb70c5d.chunk.css",
-    "static/js/main.f129a3c5.chunk.js"
+    "static/js/2.d585a353.chunk.js",
+    "static/css/main.b14183ac.chunk.css",
+    "static/js/main.ed3fd30c.chunk.js"
   ]
 }
